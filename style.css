@@ -78,12 +78,14 @@ video {
     background-color: white;
     text-align: center;
     padding: 10px;
+    height: 300px;
 }
 
 #gallerywrapper {
     background-color: white;
     text-align: center;
     padding: 20px;
+    height: 300px;
 }
 #imagecontainer{
     padding: 0;
@@ -161,9 +163,12 @@ video {
 }
 
 .galleryheader{
-    text-align:center;
+    display: block;
+    text-align: center;
     color: white;
     font-size: xx-large;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .footer{
@@ -176,6 +181,28 @@ video {
 
 #mapframe{
     position: relative;
-    height: 80%;
+    height: 60%;
     width: 90%; 
+}
+
+p1 {
+    font-family: 'Sen', sans-serif;
+    font-size: 1.4cm;
+}
+
+p2 {
+    font-family: 'Sen', sans-serif;
+    font-size: 0.7cm;
+}
+
+
+p3{
+    font-family: 'Sen', sans-serif;
+    font-size: 0.7cm;
+    color: rgb(160, 14, 14)
+}
+
+p {
+    font-family: 'Sen', sans-serif;
+    font-size: 0.5cm;
 }
