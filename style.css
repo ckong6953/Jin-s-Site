@@ -1,7 +1,7 @@
 
 * {
     box-sizing: border-box;
-    font-size: xx-large;;
+    
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 .column {
     float: left;
     width: 50%;
-    padding: 10px;
+    padding: 5px;
 }
 
 .row:after {
@@ -41,35 +41,141 @@ body {
     padding-top: 50px
 }
 
+#contactbutton {
+    padding: 10px;
+    color: white;
+    background-color: rgb(19, 18, 18);
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#menubutton {
+    background-color: rgb(19, 18, 18);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 video {
     display: block;
     margin: auto;
-}
-
-#menuwrapper {
-    background-color: white;
-    text-align: center;
-}
-
-#reviewwrapper {
-    background-color: white;
-    text-align: center;
 }
 
 .spacer{
     height: 25px;
 }
 
-
 .columnitem {
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 25px;
 }
 
-#textfont {
-    font-family: flood-std, sans-serif;
-    font-style: normal;
-    font-weight: 400;
+#menuwrapper {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
 }
 
+#gallerywrapper {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+#imagecontainer{
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+}
+
+#hourswrapper {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    height: 400px;
+}
+
+#locationwrapper {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    height: 400px;
+}
+
+.images{
+    text-align:center;
+    width:100%;
+    display:none;
+    margin:auto;
+    border-radius: 10px;
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#image_0 {
+    display:inline-block
+}
+
+.leftaltcolumn {
+    float: left;
+    width: 15%;
+    padding-right: 0;
+    margin-right: 0;
+    height: 25%;
+    text-align:right;
+}
+
+.mainaltcolumn{
+    float: left;
+    width:70%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height:100%;
+}
+
+.rightaltcolumn {
+    float: left;
+    width: 15%;
+    padding-left: 0;
+    margin-left: 0;
+    height: 25%;
+    text-align:left;
+}
+
+#sidebutton{
+    height:90px;
+    width:45px;
+    background-color: rgb(70, 5, 5);
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+.galleryheader{
+    text-align:center;
+    color: white;
+    font-size: xx-large;
+}
+
+.footer{
+    display: block;
+    background-color: #570a17;
+    color: rgb(141, 131, 131);
+    text-align: center;
+    padding: 20px;
+}
+
+#mapframe{
+    position: relative;
+    height: 80%;
+    width: 90%; 
+}

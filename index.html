@@ -4,7 +4,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Jin's Hibachi and Chinese</title>
         <link rel="stylesheet" href="style.css">
-        
+        <script src="https://kit.fontawesome.com/5630c54d3b.js" crossorigin="anonymous"></script>
+        <script src="function.js"></script>
     </head>
     <body>
         <div class="row">
@@ -12,7 +13,7 @@
                 <img width="100" src="jins-upscaled-logo.png">
             </div>
             <div class="column" id="contactwrapper">
-                <a href="#">Contact Us</a>
+                <a id="contactbutton" href="tel:8037883339"> <i class="fa-solid fa-phone"></i> Contact Us</a>
             </div>
           </div>
           <div class="videowrapper">
@@ -25,16 +26,79 @@
             <div class="column">
                 <div class="columnitem" id="menuwrapper">
                     <p1 id="textfont">Menu</p1><br>
-                    <p2>Specials</p2>
-                    <p></p>
+                    <p2>Family Meal Deal</p2>
+                    <p>Any Large Fried Rice, 20 cut wings, 4 vegetable Egg Rolls or Spring Rolls, & Chinese Donuts </p>
+                    <br>
+                    <a id="menubutton" href="gallery/Jins New Menu.pdf"><i class="fa-solid fa-bars"></i> Menu</a>
+                    <br>
                 </div>
             </div>
             <div class="column">
-                <div class="columnitem" id="reviewwrapper">
-                    <p1 id="textfont">Reviews</p1>
-                    
+                <div class="columnitem" id="gallerywrapper">
+                    <p1 id="textfont">About Us</p1>
+                    <p>Since our opening in 2008, we have been proudly serving the Midlands area of South Carolina with our offerings of Chinese, Japanese, and even a few Korean dishes.
+                        Our specialty is our crispy, Chinese-style wings that are made in house with our own special recipe.
+                        Each dish is cooked out order using the freshest of ingredients.
+                        Come in and try us today!</p>
                 </div>
             </div>
         </div> 
+        <!--building an image gallery-->
+        <div>
+            <p class="galleryheader">Gallery</p>
+        </div>
+        <div class="row">
+            <div class="leftaltcolumn"  id="lefttbutton" >
+                <button id="sidebutton" type="button" onclick="browseLeft()"><i class="fa-solid fa-arrow-left"></i></button>
+            </div>
+            <div class="mainaltcolumn">
+                <div class="gallerywrapper">
+                    <img class="images" id = "image_0" src="gallery/wings and rice.png">
+                    <img class="images" id = "image_1" src="gallery/wings.png">
+                    <img class="images" id = "image_2" src="gallery/lo mein.png">
+                    <img class="images" id = "image_3" src="gallery/lo mein 2.png">
+                    <img class="images" id = "image_4" src="gallery/app platter.png">
+                    <img class="images" id = "image_5" src="gallery/app platter 2.png">
+                    <img class="images" id = "image_6" src="gallery/fried rice.png">
+                    <img class="images" id = "image_7" src="gallery/general tso.png">
+                    <img class="images" id = "image_8" src="gallery/combo platter.png">
+                    <img class="images" id = "image_9" src="gallery/crab rangoons.png">
+                    <img class="images" id = "image_10" src="gallery/gyoza.png">
+                    <img class="images" id = "image_11" src="gallery/wok 1.png">
+                </div>
+            </div>
+            <div class="rightaltcolumn" id="rightbutton">
+                <button id="sidebutton"  type="button" onclick="browseRight()"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+        <!--building an image gallery-->
+        <div class="spacer"></div>
+        <div class="row">
+            <div class="column">
+                <div class="columnitem" id="hourswrapper">
+                    <p1>Hours</p1>
+                    <p>Monday:  Closed</p>
+                    <p>Tuesday: 11:00 am - 9:00 pm</p>
+                    <p>Wednesday:   11:00 am - 9:00 pm</p>
+                    <p>Thursday: 11:00 am - 9:00 pm</p>
+                    <p>Friday: 11:00 am - 9:00 pm</p>
+                    <p>Saturday: 11:00 am - 9:00 pm</P>
+                    <p>Sunday: Closed</p>
+                    <p>* Last call for orders is 8:20 pm *</p>
+                    <p>** Hours are subject to change **</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="columnitem" id="locationwrapper">
+                    <p1>Location</p1>
+                    <p> 4435 HardScrabble Rd #100, Columbia, SC 29229</p>
+                    <iframe id="mapframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.0076469476085!2d-80.9139538838344!3d34.14614648058044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8a9925abf3ed7%3A0x9c772aa45ce3a0bf!2sJin&#39;s%20Hibachi%20%26%20Chinese!5e0!3m2!1sen!2sus!4v1660211531450!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <div class="footer">
+            <p>Jin's Hibachi and Chinese 2022</p>
+        </div>
     </body>
 </html>
