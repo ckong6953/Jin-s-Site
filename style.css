@@ -184,25 +184,60 @@ video {
     height: 60%;
     width: 90%; 
 }
+@media only screen and (max-width: 490px) {
+    p1 {
+        font-family: 'Sen', sans-serif;
+        font-size: 0.8cm;
+    }
+    
+    p2 {
+        font-family: 'Sen', sans-serif;
+        font-size: 0.4cm;
+    }
+    
+    
+    p3{
+        font-family: 'Sen', sans-serif;
+        font-size: 0.4cm;
+        color: rgb(160, 14, 14)
+    }
+    
+    p {
+        font-family: 'Sen', sans-serif;
+        font-size: 0.35cm;
+    }
 
-p1 {
-    font-family: 'Sen', sans-serif;
-    font-size: 1.4cm;
+    #hourstext {
+        font-size:0.30cm;
+    }
 }
 
-p2 {
-    font-family: 'Sen', sans-serif;
-    font-size: 0.7cm;
+@media only screen and (min-width: 490px) {
+    p1 {
+        font-family: 'Sen', sans-serif;
+        font-size: 1.4cm;
+    }
+    
+    p2 {
+        font-family: 'Sen', sans-serif;
+        font-size: 0.7cm;
+    }
+    
+    
+    p3{
+        font-family: 'Sen', sans-serif;
+        font-size: 0.7cm;
+        color: rgb(160, 14, 14)
+    }
+    
+    p {
+        font-family: 'Sen', sans-serif;
+        font-size: 0.5cm;
+    }  
+
+    #hourstext {
+        font-size:0.65cm;
+    }
 }
 
 
-p3{
-    font-family: 'Sen', sans-serif;
-    font-size: 0.7cm;
-    color: rgb(160, 14, 14)
-}
-
-p {
-    font-family: 'Sen', sans-serif;
-    font-size: 0.5cm;
-}

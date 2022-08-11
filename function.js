@@ -1,12 +1,4 @@
 var image_index = 0
-window.onload = function () {
-    renderButton()
-} 
-
-function renderButton(){
-    var height = document.querySelector('.mainaltcolumn').offsetHeight
-    document.getElementById("sidebutton").height = height
-}
 
 function fetchId(){
     var current_id = "image_" + image_index
