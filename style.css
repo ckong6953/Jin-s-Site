@@ -184,15 +184,20 @@ video {
     height: 60%;
     width: 90%; 
 }
-@media only screen and (max-width: 490px) {
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     p1 {
         font-family: 'Sen', sans-serif;
-        font-size: 0.8cm;
+        font-size: 0.75cm;
     }
     
     p2 {
         font-family: 'Sen', sans-serif;
-        font-size: 0.4cm;
+        font-size: 0.33cm;
     }
     
     
@@ -204,40 +209,165 @@ video {
     
     p {
         font-family: 'Sen', sans-serif;
-        font-size: 0.35cm;
+        font-size: 0.37cm;
     }
 
     #hourstext {
-        font-size:0.30cm;
+        font-size:0.23cm;
+    }
+
+    #abouttext {
+        font-size: 0.26cm;
+    }
+
+    #abouthead {
+        font-size: 0.6cm;
     }
 }
 
-@media only screen and (min-width: 490px) {
+
+@media only screen and (min-width: 375px) 
+    and (max-width: 767px) 
+    and (orientation: portrait) { 
     p1 {
         font-family: 'Sen', sans-serif;
-        font-size: 1.4cm;
+        font-size: 0.75cm;
     }
     
     p2 {
         font-family: 'Sen', sans-serif;
-        font-size: 0.7cm;
+        font-size: 0.33cm;
     }
     
     
     p3{
         font-family: 'Sen', sans-serif;
-        font-size: 0.7cm;
+        font-size: 0.4cm;
         color: rgb(160, 14, 14)
     }
     
     p {
         font-family: 'Sen', sans-serif;
-        font-size: 0.5cm;
-    }  
+        font-size: 0.37cm;
+    }
 
     #hourstext {
-        font-size:0.65cm;
+        font-size:0.23cm;
+    }
+
+    #abouttext {
+        font-size: 0.26cm;
+    }
+
+    #abouthead {
+        font-size: 0.6cm;
     }
 }
 
+@media only screen
+    and (min-width: 360px)
+    and (max-width: 767px) {
+        p1 {
+            font-family: 'Sen', sans-serif;
+            font-size: 0.75cm;
+        }
+        
+        p2 {
+            font-family: 'Sen', sans-serif;
+            font-size: 0.33cm;
+        }
+        
+        
+        p3{
+            font-family: 'Sen', sans-serif;
+            font-size: 0.4cm;
+            color: rgb(160, 14, 14)
+        }
+        
+        p {
+            font-family: 'Sen', sans-serif;
+            font-size: 0.37cm;
+        }
+    
+        #hourstext {
+            font-size:0.23cm;
+        }
+    
+        #abouttext {
+            font-size: 0.26cm;
+        }
+    
+        #abouthead {
+            font-size: 0.6cm;
+        } 
+    }
 
+    @media only screen and (min-width: 800px) {
+        p1 {
+            font-family: 'Sen', sans-serif;
+            font-size: 1.4cm;
+        }
+        
+        p2 {
+            font-family: 'Sen', sans-serif;
+            font-size: 0.7cm;
+        }
+        
+        
+        p3{
+            font-family: 'Sen', sans-serif;
+            font-size: 0.7cm;
+            color: rgb(160, 14, 14)
+        }
+        
+        p {
+            font-family: 'Sen', sans-serif;
+            font-size: 0.5cm;
+        }  
+    
+        #hourstext {
+            font-size:0.65cm;
+        }
+
+        #abouttext {
+            font-size: 0.46cm;
+        }
+    }
+
+    @media only screen 
+        and (min-width: 760px) 
+        and (orientation: landscape) {
+            p1 {
+                font-family: 'Sen', sans-serif;
+                font-size: 0.75cm;
+            }
+            
+            p2 {
+                font-family: 'Sen', sans-serif;
+                font-size: 0.33cm;
+            }
+            
+            
+            p3{
+                font-family: 'Sen', sans-serif;
+                font-size: 0.4cm;
+                color: rgb(160, 14, 14)
+            }
+            
+            p {
+                font-family: 'Sen', sans-serif;
+                font-size: 0.37cm;
+            }
+        
+            #hourstext {
+                font-size:0.45cm;
+            }
+        
+            #abouttext {
+                font-size: 0.45cm;
+            }
+        
+            #abouthead {
+                font-size: 0.6cm;
+            } 
+    }
